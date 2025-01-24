@@ -13,7 +13,7 @@ Utilize a pre-trained #CNN-based# model to recognize characters from the detecte
 Extract keypoints using #SuperPoint# and match them to the reference image with #SuperGlue#.
 Display the recognized characters on the projected license plate area in real-time.
 
-# Part 3: Real-Time Performance Optimization (30 Marks)
+# Part 3: Real-Time Performance Optimization 
 Optimize the system for real-time performance, ensuring the video processing speed is fast enough to handle continuous input.
 Implement frame-by-frame processing with efficient image handling and keypoint matching for reduced latency.
 Test and validate the system’s performance in various scenarios with different lighting conditions and license plate types.
