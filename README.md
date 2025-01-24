@@ -24,18 +24,17 @@ The #YOLOv8# model is used for vehicle and license plate detection.
 Pre-trained weights are used for the detection task.
 The model outputs bounding boxes around detected license plates.
 ## SuperPoint# and #SuperGlue# for Keypoint Matching
-#SuperPoint# is used to extract keypoints from both the detected license plates and the reference images.
-#SuperGlue# matches keypoints between the images to establish the correspondence for the projection.
+- SuperPoint is used to extract keypoints from both the detected license plates and the reference images.
+- SuperGlue matches keypoints between the images to establish the correspondence for the projection.
 Projection Pipeline
 The keypoints are used to find the homography between the detected license plate and the reference image.
 The reference image is then warped and projected onto the detected license plate in the video frame.
 The projection is updated in real-time as the video plays.
 
 # Technologies Used
-
-## Python#: Programming language used for implementing the entire system.
-## YOLOv8#: Object detection model used for detecting vehicles and license plates.
-## SuperPoint#: Pre-trained model used for keypoint extraction from images.
-## SuperGlue#: Used for matching keypoints between the detected license plate and reference image.
-## OpenCV#: Computer vision library used for video processing, image manipulation, and keypoint matching.
-## PyTorch#: Framework for model implementation and inference.
+- Python: Programming language used for implementing the entire system.
+- YOLOv8: Object detection model used for detecting vehicles and license plates.
+- SuperPoint: Pre-trained model used for keypoint extraction from images.
+- SuperGlue: Used for matching keypoints between the detected license plate and reference image.
+- OpenCV: Computer vision library used for video processing, image manipulation, and keypoint matching.
+- PyTorch: Framework for model implementation and inference.
